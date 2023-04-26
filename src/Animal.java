@@ -1,5 +1,5 @@
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
+public abstract class Animal {
+    public abstract void run(float distance);
+    public abstract void swim(float distance);
+    public abstract void jump(float height);
 }
